@@ -1,3 +1,4 @@
+# er = row_end, ec = column_end, sr = row_start, sc = column_start
 def conv2D(matrix, kernal, step=1):
   er, ec = kernal.shape[0], kernal.shape[0]
   convd = []
